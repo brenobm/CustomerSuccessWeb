@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  customersuccessweb:
+    image: customersuccessweb
+    build:
+      context: .
+      dockerfile: CustomerSuccessWeb\Dockerfile
